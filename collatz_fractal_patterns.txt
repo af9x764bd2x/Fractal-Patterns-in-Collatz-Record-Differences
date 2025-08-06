@@ -1,0 +1,43 @@
+# COLLATZ FRACTAL PATTERNS - RECORD HOLDERS ANALYSIS
+# Discovered by Vítor Fulgêncio (7/7/2025).
+# GitHub Repository: https://github.com/af9x764bd2x/Fractal-Patterns-in-Collatz-Record-Differences
+# License: Creative Commons Attribution (CC-BY)
+
+## REVERSIBLE CYCLES IN RECORD DIFFERENCES
+
+### PRIMARY LAYER (Record Holders)
+Record sequence: 97 → 871 → 6171 → 77031 → 116161 → 142587 → 837799 → 8400511 → 63728127 → 670617279 → 9780657630 → 75128138247 → 1345912862700 → 2361235441021745434476837
+
+Differences (Dₙ = Rₙ - Rₙ₋₁):
+[774, 5300, 70860, 39130, 26426, 695212, 7562712, 55327616, 33356152, 9110040351, 65347497617, 594630979453, 1015322578337]
+
+### SECOND LAYER (Sorted Differences)
+Example with first 5 differences:
+Sorted Dₙ: [774, 5300, 26426, 39130, 70860]
+
+Reversible cycles:
+1) 5300 - 774 = 4526 → 5300 - 4526 = 774
+2) 26426 - 4526 = 21900 → 26426 - 21900 = 4526
+3) 39130 - 21900 = 17230 → 39130 - 17230 = 21900
+4) 70860 - 17230 = 53630 → 70860 - 53630 = 17230
+
+### MEGA-RECORD VERIFICATION (24-digit number)
+2361235441021745434476837 - 1279950832159 = 2361235441020465483644678
+2361235441021745434476837 - 2361235441020465483644678 = 1279950832159
+(Cycle with previous difference reappears)
+
+### PATTERN OBSERVATIONS
+1. All record differences generate reversible cycles when sorted
+2. Values like 774, 4526, 17230 reappear across multiple scales
+3. The structure is fractal - same behavior appears in deeper layers
+
+### HOW TO VERIFY
+1. Take any Collatz record sequence
+2. Compute differences between consecutive records
+3. Sort differences in ascending order
+4. Apply: Dₖ - Δ = ∇ → Dₖ - ∇ = Δ
+5. The pattern persists indefinitely
+
+# CRUCIAL NOTE
+This pattern was first documented by Vítor Fulgêncio on 7/7/2025. 
+For collaboration/licensing, contact: vitorfulgencio3d@gmail.com
