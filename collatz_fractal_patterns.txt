@@ -1,7 +1,7 @@
 # COLLATZ FRACTAL PATTERNS - RECORD HOLDERS ANALYSIS
 # Discovered by Vítor Fulgêncio (7/7/2025).
 # GitHub Repository: https://github.com/af9x764bd2x/Fractal-Patterns-in-Collatz-Record-Differences
-# License: Creative Commons Attribution (CC-BY)
+# License: Creative Commons Attribution  4.0 (CC-BY 4.0)
 
 ## REVERSIBLE CYCLES IN RECORD DIFFERENCES
 
@@ -39,3 +39,4 @@ Reversible cycles:
 This pattern was first documented by Vítor Fulgêncio on 7/7/2025. 
 
 For collaboration/licensing, contact: vitorfulgencio3d@gmail.com
+
